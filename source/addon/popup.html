@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="popupstyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            body {
+                background-color: #292929;
+                width: 270px;
+                padding: 1em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2 style="color:#ffffff;text-align:center;">Fake news classifier</h2>
+        <label class="label_text">
+            Find if this news is fake or not!
+        </label>
+
+        <button class="button" id="analyze">Analyze</button>
+        <p class="para_text">Chances that the news is fake: <span id="news-prediction"></span>
+        <p class="para_text">Polarity of this news article is <span id="news-polarity"></span>
+        <p class="para_text">This news article is <span id="news-subjectivity"></span>
+
+        <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="popup.js"></script>
+
+    </body>
+</html>

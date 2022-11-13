@@ -1,0 +1,7 @@
+{
+  "name": "classifier",
+  "description": "host for native messaging",
+  "path": "E:\\ML\\proj\\fake_real_news_ext\\source\\calltoscript.bat",
+  "type": "stdio",
+  "allowed_extensions": ["classifieraddon@example.org"]
+}

@@ -1,0 +1,38 @@
+{
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "classifieraddon@example.org",
+          "strict_min_version": "58.0a1"
+        }
+    },
+
+    "manifest_version": 2,
+    "name": "news classifier",
+    "version": "1.0",
+
+    "description": "Classifies a news article as fake or not.",
+
+    "background": {
+        "scripts": ["popup.js"]
+    },
+
+    "content_security_policy": "script-src 'self' https://code.jquery.com/jquery-3.6.0.min.js; object-src 'self'",
+
+    "browser_action":{
+        "browser_style": true,
+        "default_icon":{
+            "48":"/icon.svg",
+            "96":"/icon.svg"
+        },
+        "default_title":"News classifier",
+        "default_popup":"/popup.html"
+    },
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "nativeMessaging",
+        "storage"
+    ]
+}

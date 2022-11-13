@@ -1,0 +1,30 @@
+.button {
+    text-align:center;
+    background-color: #0076ad;
+    color: #fff;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    min-height:15px;
+    min-width: 80px;
+    width: 150px;
+    margin-left: 50px;
+}
+.button:hover {
+      background-color:#0a0a23;
+      transition: 0.3s;
+}
+.button:active {
+    background-color: #00fff7;
+}
+
+.para_text {
+    color:#ffffff;
+    font-size:14px;
+}
+
+.label_text {
+    color:#ffffff;
+    font-size:14px;
+    text-align:center;
+}
